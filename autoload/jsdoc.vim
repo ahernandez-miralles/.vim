@@ -1,0 +1,1 @@
+../submodules/vim-jsdoc/autoload/jsdoc.vim

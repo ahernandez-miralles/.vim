@@ -1,0 +1,1 @@
+../../submodules/vim-jsdoc/ftplugin/javascript/jsdoc.vim
