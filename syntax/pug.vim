@@ -1,0 +1,1 @@
+../submodules/vim-pug/syntax/pug.vim

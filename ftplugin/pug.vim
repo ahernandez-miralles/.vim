@@ -1,0 +1,1 @@
+../submodules/vim-pug/ftplugin/pug.vim
