@@ -5,7 +5,9 @@ filetype plugin on
 autocmd Filetype * setlocal ts=4 sts=4 sw=4 
 
 " Set whitespace conventions for specific filetypes 
+autocmd Filetype pug        setlocal ts=2 sts=2 sw=2 
 autocmd Filetype html       setlocal ts=2 sts=2 sw=2 
+autocmd Filetype json       setlocal ts=2 sts=2 sw=2 
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 
 autocmd Filetype python     setlocal ts=2 sts=2 sw=2 
 autocmd Filetype c          setlocal ts=3 sts=3 sw=3 
@@ -40,6 +42,10 @@ let g:jsdoc_input_description=1
 let g:gundo_preview_bottom = 1
 " Close the Gundo windows when reverting
 let g:gundo_close_on_revert = 1
+
+" indentLine settings
+"let g:indentLine_char = '┆'
+let g:indentLine_char = '┊'
 
 " Mappings
 let mapleader = "," " Set the default prefix key for commands
