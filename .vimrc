@@ -46,6 +46,7 @@ let g:gundo_close_on_revert = 1
 " indentLine settings
 "let g:indentLine_char = '┆'
 let g:indentLine_char = '┊'
+let g:indentLine_color_term = 240
 
 " Mappings
 let mapleader = "," " Set the default prefix key for commands

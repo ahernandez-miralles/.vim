@@ -2,4 +2,6 @@
 " e.g., ln -s braces.vim javascript.vim if you want this
 " mapping for javascript files.
 
-imap <buffer> { {<CR>}<ESC>O
+"imap <buffer> { {}<LEFT>
+imap <buffer> ( ()<LEFT>
+imap <buffer> <expr> ) strpart(getline('.'), col('.')-1, 1) == ")" ? "\<RIGHT>" : ")"
