@@ -1,0 +1,1 @@
+../submodules/vim-javascript/ftdetect/javascript.vim
