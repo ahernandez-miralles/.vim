@@ -1,0 +1,1 @@
+../submodules/yajs.vim/syntax/yajs/web-blob.vim

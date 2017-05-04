@@ -1,0 +1,1 @@
+../submodules/yajs.vim/syntax/yajs/web-location.vim

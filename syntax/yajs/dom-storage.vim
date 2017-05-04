@@ -1,0 +1,1 @@
+../submodules/yajs.vim/syntax/yajs/dom-storage.vim
