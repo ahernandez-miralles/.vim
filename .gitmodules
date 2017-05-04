@@ -13,6 +13,3 @@
 [submodule "submodules/indentLine"]
 	path = submodules/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
-[submodule "submodules/vim-javascript"]
-	path = submodules/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
