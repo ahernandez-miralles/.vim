@@ -9,7 +9,7 @@ autocmd Filetype pug        setlocal ts=2 sts=2 sw=2
 autocmd Filetype html       setlocal ts=2 sts=2 sw=2 
 autocmd Filetype json       setlocal ts=2 sts=2 sw=2 
 autocmd Filetype yaml       setlocal ts=2 sts=2 sw=2
-autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 nocindent
 autocmd Filetype python     setlocal ts=2 sts=2 sw=2 
 autocmd Filetype c          setlocal ts=3 sts=3 sw=3 
 autocmd Filetype cpp        setlocal ts=3 sts=3 sw=3 
@@ -43,7 +43,8 @@ set statusline+=%c,%l/%L\ %P\
 set wildmenu
 
 " Set up indent goodies
-set ai si ci          " autoindent, smartindent, cindent
+set ai si             " autoindent, smartindent
+set nocindent         " Turn off cindent
 set expandtab         " Expand tabs to spaces
 set formatoptions+=ro " Auto insert a comment character when writing comments
 
@@ -86,3 +87,5 @@ nnoremap <leader>u :GundoToggle<CR>
 nnoremap <leader>e :tabedit
 nnoremap H :tabp<CR>
 nnoremap L :tabn<CR>
+" alphanumeric case insensitive sort
+vnoremap <leader>s :sort i /\/[A-z]/<CR>
